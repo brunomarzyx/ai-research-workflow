@@ -12,6 +12,9 @@ A skill cannot change the model it runs on. The chat (or Cowork session) runs on
 
 Subagents run in Cowork and Claude Code, not plain chat. In plain chat the skill does those steps itself, briefly.
 
+## Default mode: chat with Opus, Opus hands down
+I stay in one Opus chat. Opus decides the route per step and does only the judgement: what to do, the final words, the verdict. Every mechanical step (listing or moving files, data pulls, vault edits, PDF digests, form filling, web lookups) goes to a worker via the Agent tool with `model` set (haiku for mechanical, sonnet for research/editing/red-team), even when it's small, as long as it takes more than ~2 tool calls. Opus writes one line before each hand-off: `→ Haiku: <task>`. In Claude Code, run `/model opusplan` so execution drops to Sonnet automatically.
+
 ## Roles
 | Role | Model | Does | Never does |
 |---|---|---|---|
@@ -46,7 +49,7 @@ Subagents run in Cowork and Claude Code, not plain chat. In plain chat the skill
 - Index first, then only the 1–2 notes the task needs. Never load a folder.
 - A subagent gets the task, the paths it needs and the output format. Nothing else, not the chat history.
 - Bulky output goes to `_scratch/`. The orchestrator reads the summary, opens the file only if it must.
-- Delegate only when the work is mechanical **and** either bulky (would drag several pages into the main thread) or parallel. Each subagent starts cold and re-reads its own setup, so a two-line lookup is cheaper inline.
+- Delegate any mechanical step that needs more than ~2 tool calls (see Default mode). Keep one-or-two-call lookups inline: each subagent starts cold, so below that it costs more than it saves.
 - Max 2 subagents in parallel. No nesting.
 
 ## Cache rules
