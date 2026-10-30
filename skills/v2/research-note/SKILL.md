@@ -7,6 +7,8 @@ description: "Writes a 2-page macro or markets research note in Max's house styl
 
 Start the reply with `Using: research-note`.
 
+Model: Max's Hormuz and France notes. Audience: S&T interviewers, desk heads, LinkedIn.
+
 **Outcome:** a 2-page note an S&T interviewer would respect: a clear call, priced vs our view, and what would change my mind. Every number sourced or labelled.
 
 **Done when:** all 8 sections are filled, fact-checker shows no open ⚠️/❌, the 30-second verbal version and 1-line hook are written, and the Research Library row is added.
@@ -35,12 +37,13 @@ Quick take: skip 5–8. Plain chat (no subagents): do 2, 3 and 7 yourself, brief
 5. **Scenarios:** base / bull / bear, odds labelled "my judgement", market level in each.
 6. **What would change my mind:** 2–3 observable signals.
 7. **Trade expression (analysis, not advice):** how a desk might express it; risks.
-8. **Sources:** primary first.
+8. **Sources:** primary first (central banks, ONS/BLS, EIA, FRED, filings).
 Then: 30-second verbal version and a 1-line X/LinkedIn hook.
 
 ## Hard rules
 - Every number from a source found this session or labelled "estimate". Reason: interviewers check, and one wrong level sinks the note.
 - No buy/sell calls on single stocks, no personal positions. Reason: compliance-safe for LinkedIn and bank applications.
+- Short sentences, no hype, no AI-sounding filler (humanize pass).
 - Frameworks (deal-then-break, oil→rates migration, structural fear vs cyclical data) only where they genuinely fit.
 
 ## Save

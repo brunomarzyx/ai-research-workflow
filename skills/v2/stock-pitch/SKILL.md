@@ -15,7 +15,7 @@ Start the reply with `Using: stock-pitch`.
 | Step | Who | Returns |
 |---|---|---|
 | 1. Screen (no name yet) | chat model, no subagents | 3 names × 3 lines |
-| 2. Data: company + peers | fin-data-puller (Haiku) | sourced table; raw to `_scratch/` |
+| 2. Data: company + peers (Helios: US tower peers AMT, CCI, SBAC via SEC data; HTWS.L price via Yahoo) | fin-data-puller (Haiku); work from its table only | sourced table; raw to `_scratch/` |
 | 2b. Annual report / long filing | pdf-summariser (Haiku) | ≤400 words + page refs |
 | 3. Thesis, 3 pillars + variant view | Opus, never delegated | draft |
 | 4. Catalysts | Opus | dated list |
@@ -43,7 +43,8 @@ Stop for Max's input after steps 1, 3 and 5. Plain chat: do 2, 6 and 8 yourself,
 ## Hard rules
 - Every number sourced (filing, market-data tool, company report) or labelled "estimate"; never invent tickers, prices or multiples. Reason: judges and PMs check, and the LSMF promotion rides on credibility.
 - Arithmetic in code or a spreadsheet, never mental maths. Reason: valuation errors are the fastest way to lose the 30 financial marks.
-- Use word-bank terms correctly (EV = market cap + debt − cash).
+- Use word-bank terms correctly (EV = market cap + debt − cash; alpha = differ from the market and be right).
+- Plain, confident language. Humanize pass on anything Max will present.
 
 ## Save
 vault-updater: project note Current state, Decisions (with reasons), Next actions, `updated:`.
