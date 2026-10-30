@@ -1,0 +1,6 @@
+{
+  "name": "max-finance-agents",
+  "version": "0.2.0",
+  "description": "Cheap worker agents for Max's research, pitch, recruiting and vault workflows: data puller, fact-checker, PDF summariser, vault updater (Haiku); web researcher, red team, editor (Sonnet).",
+  "author": { "name": "Max Brenner" }
+}
