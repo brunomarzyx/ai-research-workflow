@@ -8,3 +8,4 @@ Read `agents/ROUTING.md` before any multi-step task. It is the routing source of
 - Every market or company number from a tool, filing or given source, else "estimate". Reason: everything here ends up in front of interviewers or PMs.
 - Skills v2 are in `skills/v2/`; each ends with a "Done when". Stop when it's met.
 - Never edit `.obsidian/`, never overwrite or delete vault notes without asking.
+- Do it, don't instruct: if a step can be done with the terminal, the Mac, Chrome, git, files or the vault, do it and verify it yourself; never hand Max steps you could run. Try first; if blocked, find another legitimate route, then say exactly what blocked you. Only hand back: passwords/sign-ins, CAPTCHAs, the final Submit on applications, and sending messages as Max.
