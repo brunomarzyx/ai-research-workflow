@@ -28,7 +28,7 @@ A = Max's own thesis. B = critique. A supplied document or post means B; otherwi
 Plain chat: do 1, 2, 3 and 6 yourself.
 
 ## Context (minimum)
-Project docs `claude/Notes Log.md`, `claude/My Theses.md`, `claude/Frameworks.md` (project_read). Overlap with an existing thesis → write an update, not a fresh view.
+Project docs `claude/Notes Log.md`, `claude/My Theses.md`, `claude/Frameworks.md` (project_read). Don't re-establish context or ask for anything these docs already hold. Overlap with an existing thesis → write an update, not a fresh view.
 
 ## Evidence standard (hard rules)
 - Every number: value, date, source, verification status. Rank: primary filing/agency → wire → secondary → aggregator. Reason: past notes needed corrections on metric-basis shifts, stale figures and wrong dates or titles.
@@ -40,7 +40,7 @@ Project docs `claude/Notes Log.md`, `claude/My Theses.md`, `claude/Frameworks.md
 1. Title = the argument. 2. Bottom line (+ trades in one line). 3. What changed (updates only: prior claim | status | verdict). 4. Where things stand (dated bullets by driver). 5. The distinctions doing the work (named frameworks). 6. What the market is mispricing. 7. Scenarios (triggers, dates, ranges; odds = judgement). 8. Trades table (trade, entry + date, rationale, dated catalysts, risk, invalidation; prefer RV/curve/convexity if the outright is late). 9. Equity angle (valuation as a range; negative read-across). 10. Cross-lens. 11. What would change my mind (strongest counter + answer + triggers). 12. Key figures table (Figure | Latest | Date | Source | Verified?). 13. Safe to quote / Do not quote. 14. 2–4 testable calls with check-by dates. 15. Sources.
 
 ## Mode B structure
-Verdict (Agree / Partly / Disagree / Skip; skip hype fast) → their thesis + targets → where I agree → internal contradictions (their exhibits vs their rating) → evidence vs claim (missing controls, untested costs, one-offs sold as structural) → buried concessions → data check → contrarian points + my addition → falsifier + cleaner test → questions for the author → one line for the desk.
+Verdict (Agree / Partly / Disagree / Skip; skip hype fast) → their thesis + targets → where I agree → internal contradictions (their exhibits or framework vs their rating; classification consistency; does the valuation metric actually drive the ratings?) → evidence vs claim (missing controls, untested costs, one-offs sold as structural) → buried concessions → data check (verify their key figures, list the errors) → contrarian points + my addition → falsifier + cleaner test → questions for the author → one line for the desk.
 
 ## Lenses
 **Commodities:** physical vs priced (count disruptions, not monthly averages); blocked capacity ≠ lost volume; escort vs insurance; curve shape, cracks and spreads; stocks and days of cover; lags; swing levers (quotas, SPRs, OPEC+); producer hedging; seasonality.

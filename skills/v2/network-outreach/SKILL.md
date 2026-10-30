@@ -29,12 +29,13 @@ Plain chat: research the targets yourself in smaller batches.
 
 ## 1. Targets
 Table: firm | type | city | size (small <75 / large) | name | role | email | source URL | hook.
+Email only if seen verbatim on a public page (contact/careers page, exchange directory, regulator register, PDF); Cloudflare-hidden addresses don't count.
 Best sources: EEX broker directory, CME find-a-broker, careers pages, DFSA/FSRA registers, SEC Form ADV.
 Hook = one specific, true fact from the page read. Never claim Max read their research unless he said so.
 
 ## 2. The ask (one per email)
 - Small shop: internship ("Would X consider me for summer 2027 or an off-cycle stint? Happy to send my CV.")
-- Large firm / named desk person: 15-minute call.
+- Large firm / named desk person: 15-minute call ("Would you have 15 minutes for a call in the next few weeks? I'd like to hear how you got into [area].")
 - Grad-scheme firm: "Is there any route in for a second-year before the graduate programme?"
 - Overseas with visa barrier: call only, "I'm UK-based, so this isn't a job request."
 
@@ -44,13 +45,13 @@ Subject: `Internship enquiry: [area] (Loughborough student)` or `15 minutes on [
 No em dashes, no "I hope this finds you well", no "passionate".
 
 ## 4. Deliver
-Drafts from a script; template changes after drafts exist → update_draft by ID, never duplicates. No attachments (connector can't attach local files); offer the CV. Tracker: Firm, City, Ask, To, Subject, Email source, Sent date, Follow-up due, Status, Notes. Send plan: 10–15 a day.
+Drafts from a script; template changes after drafts exist → update_draft by ID, never duplicates. No attachments (connector can't attach local files); offer the CV. Tracker: Firm, City, Ask, To, Subject, Email source, Sent date, Follow-up due, Status, Notes. Send plan: 10–15 a day, so replies stay manageable and Gmail doesn't flag him.
 
 ## 5. Follow-up
-One follow-up after ~7 days, <50 words, same thread, one new thing or a polite bump. Never restate the full ask, never apologise. Replies: log in tracker, offer a reply with 2–3 call slots.
+One follow-up after ~7 days, <50 words, same thread, one new thing or a polite bump. Never restate the full ask, never apologise. Replies: log in tracker, update the person's memory file, offer a reply with 2–3 call slots.
 
 ## 6. LinkedIn
-Max filters the Loughborough alumni page (company, role keywords, location) or shared interests, pastes 30–50 profiles. One note each (<300 chars connect, <75 words DM) into a sheet. Shape: shared link first, one line on Max, the 15-minute ask. Connect the same day as emailing named people.
+Max filters the Loughborough alumni page (company, role keywords, location) or shared interests, pastes 30–50 profiles. One note each (<300 chars connect, <75 words DM) into a sheet. Shape: shared link first, one line on Max, the 15-minute ask. Connect the same day as emailing named people; it lifts reply odds and costs nothing.
 
 ## Hard rules
 - An email address only if seen verbatim on a public page, with the URL logged; never pattern-guess. Reason: bounces damage Max's sender reputation.
