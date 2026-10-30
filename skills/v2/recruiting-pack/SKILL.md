@@ -45,7 +45,7 @@ Main CV = Goldman Sachs version (LFIS template). Only the 3–5 line changes tha
 HireVue: good light, camera level, dressed well, one practice on camera.
 
 ## Hard rules
-- "Why this firm" facts must be sourced. Reason: generic praise is the most common cover-letter fail in the LFIS guidance.
+- "Why this firm" facts must be sourced. Reason: a generic "why us" reads as a mass application.
 - Real examples only, never invented. Reason: interviewers probe them.
 
 ## Save
